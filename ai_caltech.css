@@ -1,0 +1,56 @@
+body {
+    text-align: center;
+    font-family: Arial, sans-serif;
+    background-color: #112358;
+    color: #f80000;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #112358;
+    color: orange;
+    text-align: center;
+    padding: 20px 0;
+}
+
+nav {
+    
+    background-color: #112358;
+    text-align: center;
+    padding: 10px;
+}
+
+nav a {
+    
+    color: #ffffff;
+    margin: 0 15px;
+    text-decoration: none;
+    font-size: 1.5em;
+}
+
+nav a {
+    transition: font-size 0.3s, color 0.3s; /* smooth transition for font-size and color changes */
+}
+
+nav a:hover {
+    color: rgb(248, 116, 1); /* Makes text orange when hovered */
+    font-size: 2.5em; /* Makes text 1.5 times its original size when hovered */
+}
+section {
+    padding: 20px;
+    max-width: 800px;
+    margin: 20px auto;
+    background-color: white;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+footer {
+    background-color: #112358;
+    color: rgb(248, 116, 1);
+    text-align: center;
+    padding: 20px 0;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
